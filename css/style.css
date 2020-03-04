@@ -32,11 +32,29 @@
 }
 
 .principal {
+    height: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 38%;
-    left: 35%;
-    color: #ffffff;
+    top: 20%;
+    left: 30%;
+    color: #ffff;
+    text-transform: capitalize;
 }
+
+span.navbar-toggler-icon {
+    background:  #ffa200;
+    content: "";
+    bottom: 19px;
+    left: 449px;
+    top: 13px;
+    display:inline-block;
+    cursor:pointer;
+    
+   
+}
+
 
 .btn-conhecer {
     position: absolute;
@@ -46,13 +64,33 @@
     border-radius: 0%;
     top: 250px;
     padding: 8px 18px;
-    left: 44%;
+    left: 41%;
 }
 .btn-conhecer:hover {
     text-decoration: none;
     background: #ffa200;
     color: #000;
 
+}
+
+button.btn.btn-contratar {
+    text-decoration: none;
+    background: #ffa200;
+    color: #000;
+}
+
+.cadastrados {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-body {
+    background-color:#dfdfdf;
+}
+
+img.card-img-top {
+    padding: 26px 9px 30px;
 }
 
 .card {
@@ -62,4 +100,10 @@
 }
 .card img {
     object-fit: cover;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #212121;
+    padding: 25px 0px 20px 10px;
 }
