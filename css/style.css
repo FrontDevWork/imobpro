@@ -44,15 +44,14 @@
 }
 
 span.navbar-toggler-icon {
-    background:  #ffa200;
-    content: "";
     bottom: 19px;
     left: 449px;
     top: 13px;
     display:inline-block;
     cursor:pointer;
-    
-   
+}
+.navbar-toggler{
+    color: #fff;
 }
 
 
