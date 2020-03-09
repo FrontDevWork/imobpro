@@ -1,108 +1,152 @@
 .logo {
-    color: #fff;
-    padding-left: 70px;
-    padding-right: 100px;
+  color: #fff;
+  padding-left: 70px;
+  padding-right: 100px;
 }
 .logo span {
-    color: #ffa200;
+  color: #ffa200;
 }
-.navbar-nav .nav-link{
-    color: #fff;
+.navbar-nav .nav-link {
+  color: #ffa200;
 }
 
 .nav-principal {
-    background-color: #000;
+  background-color: #000;
 }
 .wraper {
-    margin-top: 30px;
-    width: 100%;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .banner {
-    width: 100%;
-    height: 500px;
-    position: relative;
+  width: 100%;
+  height: 500px;
+  position: relative;
 }
-.img-banner{ 
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    filter: brightness(50%);
+.img-banner {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
 }
 
 .principal {
-    height: 9em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    color: #ffff;
-    text-transform: capitalize;
+  height: 9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: #ffff;
+  text-transform: capitalize;
 }
 
 span.navbar-toggler-icon {
-    bottom: 19px;
-    left: 449px;
-    top: 13px;
-    display:inline-block;
-    cursor:pointer;
+  bottom: 19px;
+  left: 449px;
+  top: 13px;
+  display: inline-block;
+  cursor: pointer;
 }
-.navbar-toggler{
-    color: #fff;
+.navbar-toggler {
+  color: #ffa200;
 }
-
 
 .btn-conhecer {
-    position: absolute;
-    font-size: 23px;
-    color: #fff;
-    border: solid 5px #ffa200;
-    border-radius: 0%;
-    top: 250px;
-    padding: 8px 18px;
-    left: 41%;
+  position: absolute;
+  font-size: 23px;
+  color: #fff;
+  border: solid 5px #ffa200;
+  border-radius: 0%;
+  top: 250px;
+  padding: 8px 18px;
+  left: 41%;
 }
 .btn-conhecer:hover {
-    text-decoration: none;
-    background: #ffa200;
-    color: #000;
-
+  text-decoration: none;
+  background: #ffa200;
+  color: #000;
 }
 
 button.btn.btn-contratar {
-    text-decoration: none;
-    background: #ffa200;
-    color: #000;
+  text-decoration: none;
+  background: #ffa200;
+  color: #000;
 }
 
 .cadastrados {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .card-body {
-    background-color:#dfdfdf;
+  background-color: #dfdfdf;
 }
 
 img.card-img-top {
-    padding: 26px 9px 30px;
+  padding: 26px 9px 30px;
 }
 
 .card {
-    max-width: 300px;
-    min-height: 350px;
-    border: solid 1px rgb(110, 110, 110);
+  max-width: 300px;
+  min-height: 350px;
+  border: solid 1px rgb(110, 110, 110);
 }
 .card img {
-    object-fit: cover;
+  object-fit: cover;
+}
+.contato-box h2 {
+  margin-bottom: 85px;
+  text-align: center;
+
+  margin-top: 85px;
+}
+
+.contato-box .container {
+  border: solid 1px #cccc;
+  padding: 20px 120px;
+}
+
+.contato-box {
+  margin: 83px 10px;
 }
 
 .rodape {
-    text-align: center;
-    background-color: #212121;
-    padding: 25px 0px 20px 10px;
+  text-align: center;
+  background-color: #212121;
+  padding: 25px 0px 20px 10px;
+}
+.input-contato {
+  width: 300px;
+  height: 55px;
+  border: solid 3px #000;
+  border-radius: 0%;
+}
+
+button.btn-enviar {
+  border-radius: 0%;
+  width: 300px;
+  height: 55px;
+  background-color: #ffa200;
+  text-transform: uppercase;
+}
+.empresa-box {
+  margin-bottom: 131px;
+  margin-top: 59px;
+}
+
+.empresa {
+  text-align: center;
+  padding: 10px 50px 10px;
+}
+
+h1.texto-historia {
+  margin-bottom: 50px;
+}
+
+.texto {
+  font-weight: 500;
 }
