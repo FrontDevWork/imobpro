@@ -116,6 +116,13 @@ img.card-img-top {
   margin: 83px 10px;
 }
 
+a.nav-link {
+  color: #000000;
+}
+
+a:hover {
+  color: #ffa200;
+}
 .rodape {
   text-align: center;
   background-color: #212121;
