@@ -70,7 +70,8 @@
 
         <div>
             <h3 class="cadastrados" >
-                Quero ver mais modelos
+                <a class="nav-link" href="lista-imoveis.php"> Quero ver mais modelos</a>
+                
             </h3>
         </div>
 
