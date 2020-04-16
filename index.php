@@ -11,7 +11,8 @@
                         </h1>
                     </div>
                     <div class="conhecer">
-                        <button class="btn btn-conhecer">Conhecer</button>
+                    <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
+</button>
                     </div>
                 </div>
             </div>
@@ -31,7 +32,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button class="btn btn-contratar">Contratar</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
+</button>
                         </div>
                     </div>
                 </div>
@@ -41,7 +43,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button class="btn btn-contratar">Contratar</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
+</button>
                         </div>
                     </div>
                 </div>
@@ -51,7 +54,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button class="btn btn-contratar">Contratar</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
+</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +65,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button class="btn btn-contratar">Contratar</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
+</button>
                         </div>
                     </div>
                 </div>
@@ -76,6 +81,8 @@
         </div>
 
     </section>
+
+   
 
     <?php include "footer.php" ?>
     
