@@ -14,8 +14,7 @@
     <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalScrollableTitle">Apartamento com 1 Quarto à Venda, 70m por
-                    R$ 2.238.000.00 </h5>
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Apartamento Ibira </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -42,20 +41,55 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <P> Apartamento para venda possui 70 metros quadrados com 1 quarto em Ipiranga - São Paulo - SP
-                    O apartamento no bairro Ipiranga com 70 metros quadrados com 3 quartos, sendo 1 suite.
-                    Conta com armários nos quartos e na cozinha e também com gabinetes no banheiro. Piso em carpete de
-                    madeira de excelente qualidade.
-                    Apartamento está vago e recém pintado.
-                    Proprietários de mudança para fora do país.
-                    Aceita negociação!</P>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <p><b>Dormitórios</b></p>
+                        <p>
+                            <i class="fa fa-bed"></i> De 4 a 5
+                            dormitórios
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <p><b>Área</b></p>
+                        <p>
+                            <i class="fas fa-arrows-alt"></i> De 196 a 286 m²
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <p><b>Valor</b></p>
+                        <p>
+                            <i class="fas fa-dollar-sign"></i> De 294.400,00 a
+                            489.900,00
+                        </p>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <p><b>Descrição</b></p>
+
+                        <p>
+                            Apartamento para venda possui 70 metros quadrados com 1 quarto em Ipiranga - São Paulo - SP
+                        </p>
+                        <p> O apartamento no bairro Ipiranga com 70 metros quadrados com 3 quartos, sendo 1 suite.</p>
+                        <p> Conta com armários nos quartos e na cozinha e também com gabinetes no banheiro. </p>
+                        <p> Piso em carpete de madeira de excelente qualidade.</p>
+                        <p> Apartamento está vago e recém pintado.</p>
+                        <p> Proprietários de mudança para fora do país.</p>
+                        <p> <b>Aceita negociação!</b></p>
+                    </div>
+                </div>
+                <hr>
 
                 <div class="lista-model">
-                    <li>70m</li>
-                    <li>1 quarto</li>
-                    <li>1 banheiro</li>
-                    <li>1 suíte</li>
-
                     <div class="mapa">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1879.8055215793765!2d-46.86620180823022!3d-23.47685882455719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03aaf6d062af%3A0x2c22de58cd7f17f1!2sAlphaville%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006542-115!5e1!3m2!1spt-BR!2sbr!4v1587074165829!5m2!1spt-BR!2sbr"
@@ -65,9 +99,9 @@
                 </div>
 
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fecha</button>
-                <button type="button" class="btn btn-primary">Salvar Alterações</button>
+            <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-light" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-contratar">Entrar em Contato</button>
             </div>
         </div>
     </div>
