@@ -6,8 +6,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="principal">
-                        <h1 class="imovel">
-                            Seu novo imovel está aqui
+                        <h1 class="imovel"> 𝐒𝐞𝐮 𝐧𝐨𝐯𝐨 𝐢𝐦𝐨𝐯𝐞𝐥 𝐞𝐬𝐭𝐚 𝐚𝐪𝐮𝐢
                         </h1>
                     </div>
                     <div class="conhecer">
