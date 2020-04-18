@@ -6,11 +6,15 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="principal">
-                        <h1 class="imovel"> 𝐒𝐞𝐮 𝐧𝐨𝐯𝐨 𝐢𝐦𝐨𝐯𝐞𝐥 𝐞𝐬𝐭𝐚 𝐚𝐪𝐮𝐢
+                        <h1 class="imovel">Seu novo imóvel está aqui
                         </h1>
                     </div>
                     <div class="conhecer">
+                        <button type="button" class="btn btn-contratar" data-toggle="modal"
+                            data-target="#exampleModalScrollable">Contratar
+                        </button>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -75,17 +79,7 @@
             </div>
         </div>
         <!-- Botão conhecer -->
-        <div class="container">
-            <div class="center">
-                <button class="btn-center">
-                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                    </svg>
-                    <span>Conhecer</span>
-                </button>
-            </div>
-        </div>
+
         <!-- botão cadastrados -->
         <div>
             <h3 class="cadastrados">

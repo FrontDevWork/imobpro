@@ -14,6 +14,8 @@
     <link  href="plugins/fontawesome-free/css/all.css" rel="stylesheet">
     <link  href="plugins/fontawesome-free/css/brands.css" rel="stylesheet">
     <link  href="plugins/fontawesome-free/css/solid.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>

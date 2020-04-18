@@ -1,11 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .logo {
   color: #fff;
   padding-left: 70px;
   padding-right: 100px;
 }
+
 .logo span {
   color: #ffa200;
 }
+
 .navbar-nav .nav-link {
   color: #ffa200;
 }
@@ -13,6 +19,7 @@
 .nav-principal {
   background-color: #000;
 }
+
 .wraper {
   width: 100%;
 }
@@ -54,6 +61,7 @@ span.navbar-toggler-icon {
   display: inline-block;
   cursor: pointer;
 }
+
 .navbar-toggler {
   color: #ffa200;
 }
@@ -71,6 +79,7 @@ span.navbar-toggler-icon {
   border-radius: 0%;
   padding: 8px 18px;
 }
+
 .btn-conhecer:hover {
   text-decoration: none;
   background: #ffa200;
@@ -86,7 +95,6 @@ button.btn.btn-contratar {
 .btn.btn-contratar {
   min-width: 150px;
   min-height: 50px;
-  font-family: 'Nunito', sans-serif;
   font-size: 22px;
   border: none;
   border-radius: 8px;
@@ -94,100 +102,17 @@ button.btn.btn-contratar {
   cursor: pointer;
   outline: none;
   position: relative;
- 
-  }
 
-.btn.btn-contratar:hover, .button:focus {
+}
+
+.btn.btn-contratar:hover,
+.button:focus {
   color: #ffff;
   transform: translateY(-4px);
 }
 
 
 /*Botão Conhecer */
-
-.container {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  left: 49%;
-  top: 42%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.center {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-}
-
-.btn-center {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: #000000a6;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-  border-radius: 6px;
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke:  #000000;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-  border-radius: 6px;
-}
-
-.btn-center:hover {
-  transition: 1s ease-in-out;
-  background:   #ff751a;
-}
-
-.btn-center:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.btn-center span {
-  color: white;
-  font-size: 22px;
-  font-weight: 100;
-}
-
-
-.btn-center::before {
-  content: '';
-    border-radius: 1000px;
-    min-width: calc(300px + 12px);
-    min-height: calc(60px + 12px);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: all .3s ease-in-out 0s;
-  }
-
-  .btn-center::after {
-    content: '';
-    width: 30px; height: 30px;
-    border-radius: 100%;
-    border: 6px solid #000000a6;
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: ring 1.5s infinite;
-  }
-
 /*Últimos imóveis cadastrados*/
 
 .cadastrados {
@@ -209,9 +134,11 @@ img.card-img-top {
   min-height: 350px;
   border: solid 1px rgb(110, 110, 110);
 }
+
 .card img {
   object-fit: cover;
 }
+
 .contato-box h2 {
   margin-bottom: 85px;
   text-align: center;
@@ -235,7 +162,9 @@ a.nav-link {
 a:hover {
   color: #ffa200;
 }
-html, body {
+
+html,
+body {
   height: 100%;
 }
 
@@ -254,6 +183,7 @@ html, body {
     height: 30px;
     opacity: 1;
   }
+
   100% {
     width: 300px;
     height: 300px;
@@ -268,6 +198,7 @@ html, body {
   background-color: #212121;
   padding: 25px 0px 20px 10px;
 }
+
 .input-contato {
   width: 300px;
   height: 55px;
@@ -282,6 +213,7 @@ button.btn-enviar {
   background-color: #ffa200;
   text-transform: uppercase;
 }
+
 .empresa-box {
   margin-bottom: 131px;
   margin-top: 59px;
@@ -316,12 +248,9 @@ h1.texto-historia {
   .rodape h4 {
     font-size: 17px;
   }
+
   .logo {
     padding-right: 0;
   }
 
 }
-
-
- 
-
