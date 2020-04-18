@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 <div class="wraper">
- <!-- Banner -->
+    <!-- Banner -->
     <section class="banner">
         <div class="container-fluid">
             <div class="row">
@@ -16,7 +16,7 @@
             </div>
         </div>
     </section>
-     <!-- Imoveis -->
+    <!-- Imoveis -->
     <section class="imoveis">
         <div class="container-fluid">
 
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-         <!-- Botão conhecer -->
+        <!-- Botão conhecer -->
         <div class="container">
             <div class="center">
                 <button class="btn-center">
@@ -87,13 +87,15 @@
                 </button>
             </div>
         </div>
-     <!-- botão cadastrados -->
+        <!-- botão cadastrados -->
         <div>
             <h3 class="cadastrados">
                 <a class="nav-link" href="lista-imoveis.php"> Quero ver mais modelos</a>
 
             </h3>
         </div>
+
+
 
     </section>
 

@@ -79,10 +79,28 @@ span.navbar-toggler-icon {
 
 button.btn.btn-contratar {
   text-decoration: none;
-  background: #ffa200;
-  color: #000;
+  background: #13110fe0;
+  color: #ffa200;
 }
 
+.btn.btn-contratar {
+  min-width: 150px;
+  min-height: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+ 
+  }
+
+.btn.btn-contratar:hover, .button:focus {
+  color: #ffff;
+  transform: translateY(-4px);
+}
 
 
 /*Botão Conhecer */
@@ -143,6 +161,33 @@ svg {
   font-weight: 100;
 }
 
+
+.btn-center::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+
+  .btn-center::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #000000a6;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+
 /*Últimos imóveis cadastrados*/
 
 .cadastrados {
@@ -189,6 +234,31 @@ a.nav-link {
 
 a:hover {
   color: #ffa200;
+}
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
 }
 
 /*Rodapé*/
