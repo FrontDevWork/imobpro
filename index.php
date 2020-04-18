@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 <div class="wraper">
-
+ <!-- Banner -->
     <section class="banner">
         <div class="container-fluid">
             <div class="row">
@@ -11,17 +11,16 @@
                         </h1>
                     </div>
                     <div class="conhecer">
-                    <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
-</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+     <!-- Imoveis -->
     <section class="imoveis">
         <div class="container-fluid">
 
-            <div class="cadastrados" >
+            <div class="cadastrados">
                 <h2>Últimos imóveis cadastrados</h2>
             </div>
 
@@ -32,8 +31,9 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
-</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal"
+                                data-target="#exampleModalScrollable">Contratar
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,9 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
-</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal"
+                                data-target="#exampleModalScrollable">Contratar
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -54,8 +55,9 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
-</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal"
+                                data-target="#exampleModalScrollable">Contratar
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -65,24 +67,36 @@
                         <div class="card-body">
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
-                            <button type="button" class="btn btn-contratar" data-toggle="modal" data-target="#exampleModalScrollable">Contratar
-</button>
+                            <button type="button" class="btn btn-contratar" data-toggle="modal"
+                                data-target="#exampleModalScrollable">Contratar
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+         <!-- Botão conhecer -->
+        <div class="container">
+            <div class="center">
+                <button class="btn-center">
+                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                    </svg>
+                    <span>Conhecer</span>
+                </button>
+            </div>
+        </div>
+     <!-- botão cadastrados -->
         <div>
-            <h3 class="cadastrados" >
+            <h3 class="cadastrados">
                 <a class="nav-link" href="lista-imoveis.php"> Quero ver mais modelos</a>
-                
+
             </h3>
         </div>
 
     </section>
 
-   
+
 
     <?php include "footer.php" ?>
-    
