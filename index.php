@@ -11,7 +11,7 @@
                     </div>
                     <div class="conhecer">
                         <button type="button" class="btn btn-conhecer" data-toggle="modal"
-                            data-target="#exampleModalScrollable">Contratar
+                            data-target="#apartamento">Contratar
                         </button>
                     </div>
 
@@ -35,7 +35,7 @@
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
                             <button type="button" class="btn btn-contratar" data-toggle="modal"
-                                data-target="#exampleModalScrollable">Contratar
+                                data-target="#apartamento">Contratar
                             </button>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
                             <button type="button" class="btn btn-contratar" data-toggle="modal"
-                                data-target="#exampleModalScrollable">Contratar
+                                data-target="#apartamento">Contratar
                             </button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
                             <button type="button" class="btn btn-contratar" data-toggle="modal"
-                                data-target="#exampleModalScrollable">Contratar
+                                data-target="#apartamento">Contratar
                             </button>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <h5 class="card-title">Casas Ibira</h5>
                             <p class="card-text">2.238.000.00</p>
                             <button type="button" class="btn btn-contratar" data-toggle="modal"
-                                data-target="#exampleModalScrollable">Contratar
+                                data-target="#apartamento">Contratar
                             </button>
                         </div>
                     </div>
