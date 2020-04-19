@@ -10,7 +10,7 @@
                         </h1>
                     </div>
                     <div class="conhecer">
-                        <button type="button" class="btn btn-contratar" data-toggle="modal"
+                        <button type="button" class="btn btn-conhecer" data-toggle="modal"
                             data-target="#exampleModalScrollable">Contratar
                         </button>
                     </div>
