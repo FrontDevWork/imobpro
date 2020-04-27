@@ -291,6 +291,16 @@ h1.texto-historia {
   font-weight: 500;
 }
 
+#map {
+  height: 100%;
+}
+
+.mapa {
+  height: 600px;
+  width: 450px;
+
+}
+
 /*@media*/
 
 @media (max-width: 630px) {
